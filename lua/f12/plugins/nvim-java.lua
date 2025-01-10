@@ -1,0 +1,29 @@
+return {
+  -- 'nvim-java/nvim-java',
+  -- opts = {
+  --   root_markers = {
+  --     'settings.gradle',
+  --     'settings.gradle.kts',
+  --     'pom.xml',
+  --     'build.gradle',
+  --     'mvnw',
+  --     'gradlew',
+  --     'build.gradle',
+  --     'build.gradle.kts',
+  --     '.git',
+  --     '.vscode',
+  --   },
+  --
+  --   spring_boot_tools = {
+  --     enable = false,
+  --   },
+  --
+  --   -- verification = {
+  --   --   invalid_order = false,
+  --   --   duplicate_Setup_calls = false,
+  --   --   invalid_mason_registry = true,
+  --   -- },
+  -- },
+  --
+  -- config = false,
+}

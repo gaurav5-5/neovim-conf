@@ -1,0 +1,26 @@
+return {
+  -- { 'ribru17/bamboo.nvim', lazy = false, priority = 1000 },
+  -- { 'NTBBloodbath/doom-one.nvim', lazy = false, priority = 1000 },
+  -- { 'NTBBloodbath/sweetie.nvim', lazy = false, priority = 1000 },
+  -- { 'rebelot/kanagawa.nvim', lazy = false, priority = 1000 },
+  -- { 'Zeioth/neon.nvim', lazy = false, priority = 1000 },
+  -- { 'sainnhe/everforest', lazy = false, priority = 1000 },
+  -- { 'sainnhe/gruvbox-material', lazy = false, priority = 1000 },
+  -- { 'catppuccin/nvim', lazy = false, priority = 1000 },
+  -- { 'embark-theme/vim', lazy = false, priority = 1000 },
+  -- { 'rose-pine/nvim', lazy = false, priority = 1000 },
+  { 'Verf/deepwhite.nvim', lazy = false, priority = 1000 },
+  -- { 'nyoom-engineering/oxocarbon.nvim', lazy = false, priority = 1000 },
+  -- { 'nyngwang/nvimgelion', lazy = false, priority = 1000 },
+  -- { 'navarasu/onedark.nvim', lazy = false, priority = 1000 },
+  { 'tiagovla/tokyodark.nvim', lazy = false, priority = 1000 },
+  -- { 'maxmx03/fluoromachine.nvim', lazy = false, priority = 1000 },
+  -- { 'luisiacc/gruvbox-baby', lazy = false, priority = 1000 },
+  -- {
+  --   'craftzdog/solarized-osaka.nvim',
+  --   priority = 1000,
+  --   opts = {
+  --     transparent = false,
+  --   },
+  -- },
+}
