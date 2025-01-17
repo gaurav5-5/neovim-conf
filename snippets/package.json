@@ -1,0 +1,23 @@
+{
+	"contributes": {
+		"snippets": [
+			{
+				"language": "c",
+				"path": "./c.json"
+			},
+			{
+				"language": "python",
+				"path": "./python.json"
+			},
+			{
+				"language": ["javascript", "typescript"],
+				"path": "./javascript.json"
+			},
+			{
+				"language": "all",
+				"path": "./all.json"
+			}
+		]
+	},
+	"name": "f12-snippets"
+}

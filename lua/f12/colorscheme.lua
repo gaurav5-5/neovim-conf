@@ -1,2 +1,2 @@
-vim.o.background = 'light'
-vim.cmd.colorscheme('quiet')
+vim.opt.background = 'light'
+vim.cmd.colorscheme('lackluster')

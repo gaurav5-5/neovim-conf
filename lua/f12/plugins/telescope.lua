@@ -1,6 +1,5 @@
 return {
   'nvim-telescope/telescope.nvim',
-  event = 'VimEnter',
   -- branch = '0.1.x',
   dependencies = {
     'nvim-lua/plenary.nvim',
@@ -95,10 +94,9 @@ return {
               vim.cmd.colorscheme(selection[1])
               local f = io.open(vim.fn.stdpath 'config' .. '/lua/f12/colorscheme.lua', 'w')
               if nil ~= f then
-                f:write(("vim.o.background = '%s'\nvim.cmd.colorscheme('%s')\n"):format(vim.o.background, selection[1]))
+                f:write(("vim.opt.background = '%s'\nvim.cmd.colorscheme('%s')\n"):format(vim.o.background, selection[1]))
                 f:close()
               end
-              vim.cmd(("vim.o.background = '%s'\nvim.cmd.colorscheme('%s')\n"):format(vim.o.background, selection[1]))
             end
           end)
 

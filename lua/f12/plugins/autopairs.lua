@@ -6,7 +6,7 @@ return {
   event = 'InsertEnter',
   -- Optional dependency
   dependencies = {
-    (('blink' ~= vim.g.completion_plugin) and 'hrsh7th/nvim-cmp' or 'saighen/blink.cmp'),
+    (('blink' ~= vim.g.completion_plugin) and 'iguanacucumber/magazine.nvim' or 'saighen/blink.cmp'),
     -- 'iguanacucumber/magazine.nvim',
   },
   config = function()

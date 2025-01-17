@@ -1,7 +1,6 @@
 return {
   'nanozuki/tabby.nvim',
   dependencies = 'nvim-tree/nvim-web-devicons',
-  event = 'VimEnter',
   opts = function()
     vim.o.showtabline = 2
     return {

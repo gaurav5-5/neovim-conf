@@ -13,7 +13,7 @@ return {
   -- { 'nyoom-engineering/oxocarbon.nvim', lazy = false, priority = 1000 },
   -- { 'nyngwang/nvimgelion', lazy = false, priority = 1000 },
   -- { 'navarasu/onedark.nvim', lazy = false, priority = 1000 },
-  { 'tiagovla/tokyodark.nvim', lazy = false, priority = 1000 },
+  -- { 'tiagovla/tokyodark.nvim', lazy = false, priority = 1000 },
   -- { 'maxmx03/fluoromachine.nvim', lazy = false, priority = 1000 },
   -- { 'luisiacc/gruvbox-baby', lazy = false, priority = 1000 },
   -- {
@@ -23,4 +23,10 @@ return {
   --     transparent = false,
   --   },
   -- },
+  -- {
+  --   'jackplus-xyz/binary.nvim',
+  --   priority = 1000,
+  --   opts = {},
+  -- },
+  { 'slugbyte/lackluster.nvim', priority = 1000 },
 }
